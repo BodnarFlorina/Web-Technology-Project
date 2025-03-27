@@ -15,7 +15,7 @@ function uploadFile(callback) {
       const photoFileName = data.fileName;
       callback(photoFileName);  
       console.log('File uploaded successfully:', data);
-      displayMessage('The photo was uploaded.');  
+      displayMessage('The photo was uploaded...');  
     } else {
       console.error('Error uploading file:', data.message);
     }

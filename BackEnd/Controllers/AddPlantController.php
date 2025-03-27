@@ -62,7 +62,7 @@ class AddPlantController {
 
         $response['status_code_header'] = 'HTTP/1.1 201 Created';
         $response['body'] = json_encode(array(
-            "Result" => "Plant created successfully",
+            "Result" => "Plant created successfully!",
         ));
 
         return $response;
